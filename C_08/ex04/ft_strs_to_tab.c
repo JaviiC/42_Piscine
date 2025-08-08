@@ -51,4 +51,6 @@ struct s_stock_str *ft_strs_to_tab(int ac, char **av)
     table_str[ac].str = NULL;
     table_str[ac].copy = NULL;
     table_str[ac].size = 0;
+
+    return table_str;
 }
